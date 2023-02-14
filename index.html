@@ -5,14 +5,84 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
   <link rel="stylesheet" href="Assets/style.css">
+  <title>Weather Dashboard</title>
 </head>
 
 <body>
+  <header>
+    <h1>Weather Dashboard</h1>
+  </header>
+
+  <!-- Search for City section -->
+  <div class="search">
+    <aside>
+      <h2>Search for a Location:</h2>
+      <form id="searchForm">
+        <input id="cityInput" type="text" placeholder="e.g. Location Name"><br><br>
+        <button id="clearBtn">Clear Searches</button>
+        <button id="searchBtn">Search</button>
+      </form>
+      <h3>Previous Searches:</h3>
+      <div>
+        <p id="prevSearch"></p>
+      </div>
+    </aside>
+
+    <!-- City's Weather and Forecast -->
+    <section>
+      <div class="weather" id="weatherContainer">
+        <div>
+          <div class="today">
+            <h2 id="cityName"></h2>
+            <div><img id="img1"></div>
+            <p id="temp1"></p>
+            <p id="wind1"></p>
+            <p id="humidity1"></p>
+          </div>
+        </div>
+        <div class="forecast">
+          <div class="day">
+            <div><img id="img2"></div>
+            <p id="temp2"></p>
+            <p id="wind2"></p>
+            <p id="humidity2"></p>
+          </div>
+          <div class="day">
+            <div><img id="img3"></div>
+            <p id="temp3"></p>
+            <p id="wind3"></p>
+            <p id="humidity3"></p>
+          </div>
+          <div class="day">
+            <div><img id="img4"></div>
+            <p id="temp4"></p>
+            <p id="wind4"></p>
+            <p id="humidity4"></p>
+          </div>
+          <div class="day">
+            <div><img id="img5"></div>
+            <p id="temp5"></p>
+            <p id="wind5"></p>
+            <p id="humidity5"></p>
+          </div>
+          <div class="day">
+            <div><img id="img6"></div>
+            <p id="temp6"></p>
+            <p id="wind6"></p>
+            <p id="humidity6"></p>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+  </div>
 
 
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   <script src="Assets/script.js"></script>
 </body>
 

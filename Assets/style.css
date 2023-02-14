@@ -1,0 +1,66 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background: rgb(3, 48, 94);
+  background: linear-gradient(90deg, rgba(0, 129, 255, 1) 0%, rgba(9, 9, 121, 1) 100%);
+  color: white;
+  padding: .75rem 0rem;
+  text-align: center;
+}
+
+aside {
+  background-color: whitesmoke;
+  padding: 0rem 2rem;
+}
+
+aside form input {
+  width: 100%;
+  padding: .25rem;
+}
+
+section {
+  padding-left: 1rem;
+}
+
+button {
+  background-color: cornflowerblue;
+  color: white;
+  padding: .25rem;
+}
+
+.search {
+  display: flex;
+}
+
+
+.forecast {
+  display: flex;
+}
+
+.today {
+  border: 1px black solid;
+  margin: 50px 0px;
+  padding-left: 15px;
+}
+
+.day {
+  background-color: rgb(3, 48, 94);
+  color: white;
+  margin-right: 30px;
+  padding: 15px;
+}
+
+#prevSearch {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+#prevSearch p {
+  background-color: lightgray;
+  text-align: center;
+  margin: .5rem;
+  padding: .5rem;
+  border-radius: 5px;
+}
