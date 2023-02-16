@@ -11,7 +11,7 @@ header {
 }
 
 aside {
-  background-color: whitesmoke;
+
   padding: 0rem 2rem;
 }
 
@@ -28,7 +28,9 @@ button {
   background-color: cornflowerblue;
   color: white;
   padding: .25rem;
+  width: 105%;
 }
+
 
 .search {
   display: flex;

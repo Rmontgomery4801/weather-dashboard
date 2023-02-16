@@ -46,13 +46,12 @@ $('#clearBtn').on('click', function() {
 });
 
 
-// localstorage
-// array for searched cities
+
 var cities = [];
 
-// store searches in localstorage
+
 function storeCities() {
-  // set key in localstorage and city array
+
   localStorage.setItem("cities", JSON.stringify(cities));
 }
 
@@ -90,5 +89,5 @@ function init() {
 
 
 
-// calls funtion to run on page load
+
 init();

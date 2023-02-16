@@ -8,7 +8,6 @@
 ### Deployment Link
 (https://rmontgomery4801.github.io/weather-dashboard/)
 
+![Alt text](Assets/Images/screenshot1.png)
 
-![Screenshot 1](Assets/Images/127.0.0.1_5500_index.html_.png)
-
-![Screenshot 2](Assets/Images/127.0.0.1_5500_index.html.png)
+![Alt text](Assets/Images/screenshot2.png)
